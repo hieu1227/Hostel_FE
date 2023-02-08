@@ -1,0 +1,40 @@
+.dashboard { 
+    margin: 100px 20px 0px 20px;
+    &-header { 
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+        text-align: center;
+        
+        .header-box { 
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            min-height:150px;
+            min-width: 200px;
+            color: #fff;
+            border-radius: 10px;
+            &:nth-child(1) {
+                background-color: #95CD41;
+            } 
+            &:nth-child(2) {
+                background-color: #E02401;
+            }
+            &:nth-child(3) {
+                background-color: #9AD0EC;
+            }
+            &:nth-child(4) {
+                background-color: #FFA400;
+            }
+        }
+        
+    }
+    .table{
+        text-align: center !important;
+    }
+    &-content {
+        margin-top: 50px;
+
+    }
+}
